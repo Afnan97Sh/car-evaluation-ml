@@ -13,6 +13,7 @@ This project aims to predict car prices or acceptability using machine learning 
   ```python
   pd.read_csv('Data/CCar.csv')
   ```
+This is after I split the values into rows and fixed the seats column in (CCar.csv)
 - The `seats` column contained arithmetic expressions and slash-separated values (e.g., `5/6`, `5+1`), which were:
   - Cleaned in **Google Sheets**
   - Split by rows using the **Power Tools extension** (custom delimiter: `/`)
